@@ -1,5 +1,11 @@
+import {
+  wrapper,
+} from '../stylesheets/Common.module.css';
+
 const HomePage = () => (
-  <div>
+  <div
+    className={wrapper}
+  >
     HomePage
   </div>
 );

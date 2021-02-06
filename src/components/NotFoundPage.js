@@ -1,5 +1,11 @@
+import {
+  wrapper,
+} from '../stylesheets/Common.module.css';
+
 const NotFoundPage = () => (
-  <div>
+  <div
+    className={wrapper}
+  >
     NotFoundPage
   </div>
 );

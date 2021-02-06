@@ -1,5 +1,11 @@
+import {
+  wrapper,
+} from '../stylesheets/Common.module.css';
+
 const TypesPage = () => (
-  <div>
+  <div
+    className={wrapper}
+  >
     TypesPage
   </div>
 );

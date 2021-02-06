@@ -1,6 +1,22 @@
+import { Link } from 'react-router-dom';
+import {
+  container,
+  link,
+} from '../stylesheets/Header.module.css';
+import {
+  wrapper,
+} from '../stylesheets/Common.module.css';
+
 const Header = () => (
-  <div>
-    Header
+  <div
+    className={`${container} ${wrapper}`}
+  >
+    <Link
+      to="/"
+      className={link}
+    >
+      Home
+    </Link>
   </div>
 );
 
