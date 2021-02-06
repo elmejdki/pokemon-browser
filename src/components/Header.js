@@ -9,14 +9,18 @@ import {
 
 const Header = () => (
   <div
-    className={`${container} ${wrapper}`}
+    className={container}
   >
-    <Link
-      to="/"
-      className={link}
+    <div
+      className={`${wrapper}`}
     >
-      Home
-    </Link>
+      <Link
+        to="/"
+        className={link}
+      >
+        Home
+      </Link>
+    </div>
   </div>
 );
 

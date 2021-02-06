@@ -1,10 +1,11 @@
 import {
   wrapper,
+  marginTop,
 } from '../stylesheets/Common.module.css';
 
 const NotFoundPage = () => (
   <div
-    className={wrapper}
+    className={`${wrapper} ${marginTop}`}
   >
     NotFoundPage
   </div>

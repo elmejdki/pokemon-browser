@@ -13,8 +13,8 @@ const AppRouter = () => (
     <Header />
     <Switch>
       <Route path="/" exact component={HomePage} />
-      <Route path="/pokemon" exact component={PokemonPage} />
-      <Route path="/type" exact component={TypesPage} />
+      <Route path="/pokemon/:name" exact component={PokemonPage} />
+      <Route path="/type/:id" exact component={TypesPage} />
       <Route component={NotFoundPage} />
     </Switch>
   </Router>

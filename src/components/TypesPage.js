@@ -1,10 +1,11 @@
 import {
   wrapper,
+  marginTop,
 } from '../stylesheets/Common.module.css';
 
 const TypesPage = () => (
   <div
-    className={wrapper}
+    className={`${wrapper} ${marginTop}`}
   >
     TypesPage
   </div>
