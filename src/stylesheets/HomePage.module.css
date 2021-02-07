@@ -1,15 +1,33 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .container a {
   color: black;
   text-decoration: none;
-  padding: 20px;
-  margin: 10px 0;
-  width: 200px;
+  padding: 10px 0;
+  justify-self: center;
+  width: 190px;
   text-align: center;
   box-shadow: 0 0 10px -7px black;
   border-radius: 10px;
