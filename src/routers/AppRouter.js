@@ -14,7 +14,7 @@ const AppRouter = () => (
     <Switch>
       <Route path="/" exact component={HomePage} />
       <Route path="/pokemon/:name" exact component={PokemonPage} />
-      <Route path="/type/:id" exact component={TypesPage} />
+      <Route path="/type/:name" exact component={TypesPage} />
       <Route component={NotFoundPage} />
     </Switch>
   </Router>
