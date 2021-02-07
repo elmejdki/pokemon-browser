@@ -1,9 +1,47 @@
-# Getting Started with Create React App
+# Pokemon Browser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>This project is a Pokemon Browser where you can access a list of Pokemon's on the home page, and if you click on each one of the Pokemon names the App will redirect you to the details page. Where you can see details about each Pokemon. This was part of a take-home project from a company you can find the requirements in this [link](https://github.com/ImadBoumzaoued/rcc).
 
 ## Live Demo
+
 ![screen shot](https://user-images.githubusercontent.com/34653764/107162213-f3734100-69a1-11eb-9aa5-e75555bdeb0f.png)
+
+## Built With
+
+- ReactJS 17,
+- ReactDOM 17,
+- create-react-app,
+- Babel,
+- ES6.
+
+## Live Demo
+
+[Live Demo Link](https://meals-book.herokuapp.com/)
+
+
+## Getting Started
+
+### Prerequisites
+
+In order to have this project up and running you will need:
+
+- NodeJS 10+
+
+### Setup
+
+First, you need to clone this project using one of the links above, using this command:
+
+```Javascript
+git clone RESPOSITRY_LINK
+```
+
+Then you should run: `npm install`
+
+And afterward, you supposed to run: `npm start`, to run the project in your local machine.
+
+Then head to the localhost on port 3000 `https://localhost:3000`
+
+Congrats the project is fully working.
 
 ## Available Scripts
 
@@ -42,32 +80,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Zakariae El Mejdki**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@zakariae_elmejdki](https://twitter.com/zakariaemejdki)
+- Linkedin: [Zakariae El Mejdki](https://www.linkedin.com/in/zakariaeelmejdki/)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/elmejdki/React-Capstone-Project/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](lic.url) licensed.
