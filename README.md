@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://meals-book.herokuapp.com/)
+[Live Demo Link](https://pokemon-browser-0.herokuapp.com/)
 
 
 ## Getting Started
@@ -92,7 +92,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/elmejdki/React-Capstone-Project/issues).
+Feel free to check the [issues page](https://github.com/elmejdki/pokemon-browser/issues).
 
 ## Show your support
 
