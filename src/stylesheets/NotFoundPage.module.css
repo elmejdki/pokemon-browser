@@ -1,0 +1,12 @@
+.container {
+  height: calc(100vh - 170px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 160px;
+  color: brown;
+}

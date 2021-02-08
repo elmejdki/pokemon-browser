@@ -1,0 +1,9 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 0 20px;
+}
+
+.marginTop {
+  margin-top: 70px;
+}

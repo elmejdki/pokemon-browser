@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container > img {
+  width: 250px;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu {
+  padding: 0 10px;
+}
+
+.menu > div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.menu > div > a {
+  color: brown;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu > div > div {
+  font-size: 14px;
+  padding: 5px 10px;
+}
