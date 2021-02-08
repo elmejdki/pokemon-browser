@@ -56,12 +56,12 @@ const HomePage = () => {
             </Link>
           ))
         }
-        {
-          loading && (
-            <Loader />
-          )
-        }
       </div>
+      {
+        loading && (
+          <Loader />
+        )
+      }
       {
         next && (
           <button
